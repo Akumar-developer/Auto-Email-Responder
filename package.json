@@ -1,0 +1,29 @@
+{
+  "name": "auto-email-responder",
+  "version": "1.0.0",
+  "description": "Automatically classify and response to the email",
+  "homepage": "https://github.com/Akumar-developer/Auto-Email-Responder#readme",
+  "bugs": {
+    "url": "https://github.com/Akumar-developer/Auto-Email-Responder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akumar-developer/Auto-Email-Responder.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "node-cron": "^4.2.1",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
